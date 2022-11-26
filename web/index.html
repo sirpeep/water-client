@@ -24,7 +24,15 @@ const relayId = Math.floor(Math.random() * 3);
 window.eaglercraftOpts = {
 container: "game_frame", assetsURI: "assets.epk", serverWorkerURI: "worker_bootstrap.js", worldsFolder: "MAIN",
 servers: [
-	{ serverName: "placeholder", serverAddress: "address here", hideAddress: false }
+    { serverName: "Water Network", serverAddress: "wss://water-network.tk", hideAddress: true },
+    { serverName: "Asspixel Network", serverAddress: "wss://web.asspixel.net/CAPixel/", hideAddress: true },
+    { serverName: "VanillaMC", serverAddress: "wss://play.vanillacraftsmp.org/", hideAddress: true },
+    { serverName: "Hyper Network", serverAddress: "wss://hyper-network.me", hideAddress: true },
+    { serverName: "Ayunboom", serverAddress: "wss://sus.shhnowisnottheti.me", hideAddress: true },
+    { serverName: "BlobCraft", serverAddress: "wss://blobcraft.tk", hideAddress: true },
+    { serverName: "Aeon", serverAddress: "wss://aeon-network.net/aeon", hideAddress: true },
+    { serverName: "MessCraft", serverAddress: "wss://mess.eu.org/s1", hideAddress: true },
+    { serverName: "CraftClue Anarchy", serverAddress: "wss://play.craftclue.rocks", hideAddress: true }
 ],
 relays: [
 	{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
